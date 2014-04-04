@@ -27,6 +27,10 @@ TEMPLATE_DIRS = (
     'python_blog/templates',
 )
 
+STATICFILES_DIRS = (
+    'python_blog/static',
+)
+
 ALLOWED_HOSTS = []
 
 
