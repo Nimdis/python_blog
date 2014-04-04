@@ -23,6 +23,9 @@ SECRET_KEY = 'c*av==a-v%w@l=2u0(o860l==p^m#v3lyx6^kt7%iy31ubx*k8'
 DEBUG = True
 
 TEMPLATE_DEBUG = True
+TEMPLATE_DIRS = (
+    'python_blog/templates',
+)
 
 ALLOWED_HOSTS = []
 

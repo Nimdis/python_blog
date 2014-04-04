@@ -4,7 +4,7 @@ from blog.models import Post
 
 def index(request):
     posts = Post.objects.filter(published=True)
-    return render(request, 'blog/indes.html', {'posts': posts})
+    return render(request, 'blog/index.html', {'posts': posts})
 
 
 def post(request, slug):
